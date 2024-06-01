@@ -1,0 +1,67 @@
+body {
+    background: #3D5A80;
+    font-family: Verdana, sans-serif; /*tipo de tipografia*/
+    color: #f7ede2;/*color de letra**/
+    
+}
+body h1{
+    color: rgb(238, 108, 77); /* color de letra en formato RGB */
+}
+
+body h2{
+    color: #E0FBFC
+}
+
+li{
+    color: red;
+}
+input {
+border: 2px dashed rgb(238, 108, 77);
+}
+
+#bordeado {
+    border: 3px solid white;
+}
+
+.aloha {
+    background: #293241 ;
+    color: white;
+}
+
+div p {
+    font-size: 150%; /* Hace el texto 150% más grande */
+    color: #98C1D9;
+}
+
+.typetext {
+    background: #98C1D9;
+}
+
+a:visited {
+    color: #FFFFFF; /* Cambia el color de los enlaces visitados a blanco */
+}
+
+div:nth-of-type(3) p {
+    background-color: blue; /* Aplica un fondo azul a todos los <p> dentro del tercer <div> */
+}
+
+div:nth-of-type(3) p:nth-of-type(2) {
+    border: 4px solid white; /* Aplica un borde blanco de 4px al segundo <p> dentro del tercer <div> */
+}
+
+div:nth-of-type(3) span{
+    background: white;
+}
+
+input[type="checkbox"]:checked {
+    margin-left: 60px; /* Aplica un margen a la izquierda de 60px a los checkbox seleccionados */
+}
+
+label {
+    text-transform: uppercase; /* Convierte el texto de todos los <label> a mayúsculas */
+}
+
+#ultimo::first-letter {
+    font-size: 300%; /* Tamaño de fuente al 300% */
+    background-color: orange; /* Fondo naranja */
+}
